@@ -73,33 +73,8 @@
                                         <string key="content">Can Drastically Improve Physical Performance.
 Contains Essential Nutrients.
 May Lower Your Risk of Type 2 Diabetes.
-May Protect You From Alzheimer</string>
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="25"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="'">
-                                        <attributes>
-                                            <font key="NSFont" size="25" name=".SFArabic-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">s Disease and Dementia.
-May Lower Your Risk of Parkinson</string>
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="25"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="'">
-                                        <attributes>
-                                            <font key="NSFont" size="25" name=".SFArabic-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="s.">
+May Protect You From Alzheimer's Disease and Dementia.
+May Lower Your Risk of Parkinson's.</string>
                                         <attributes>
                                             <font key="NSFont" metaFont="system" size="25"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
