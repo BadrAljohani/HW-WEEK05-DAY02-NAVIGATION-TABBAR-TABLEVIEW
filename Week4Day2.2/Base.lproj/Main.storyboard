@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dcE-tu-0Bp">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="r6R-RJ-bph">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -25,12 +25,12 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Menu" id="mry-tV-Adz">
-                        <barButtonItem key="leftBarButtonItem" image="menu-small" id="bwE-Hq-5UW">
+                        <barButtonItem key="leftBarButtonItem" image="text.bubble.rtl" catalog="system" id="bwE-Hq-5UW">
                             <connections>
                                 <segue destination="2JL-kB-aaK" kind="show" id="2Ad-n0-ndA"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" image="headphonesmall" id="R6z-7b-2I6">
+                        <barButtonItem key="rightBarButtonItem" image="location.magnifyingglass" catalog="system" id="R6z-7b-2I6">
                             <connections>
                                 <segue destination="1i9-Ij-e1g" kind="show" id="aVN-Y5-mee"/>
                             </connections>
@@ -50,26 +50,94 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sorry we are still preparing items" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEf-Eo-dm3">
-                                <rect key="frame" x="84" y="338" width="246" height="220"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEf-Eo-dm3">
+                                <rect key="frame" x="20" y="472.5" width="374" height="332.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Can Improve Energy Levels and Reaction Times.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="25"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Can Help You Burn Fat.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="25"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="2" lineHeightMultiple="3" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Can Drastically Improve Physical Performance.
+Contains Essential Nutrients.
+May Lower Your Risk of Type 2 Diabetes.
+May Protect You From Alzheimer</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="25"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="'">
+                                        <attributes>
+                                            <font key="NSFont" size="25" name=".SFArabic-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">s Disease and Dementia.
+May Lower Your Risk of Parkinson</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="25"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="'">
+                                        <attributes>
+                                            <font key="NSFont" size="25" name=".SFArabic-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="s.">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="25"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coffee Benefits" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ch-My-dW4">
+                                <rect key="frame" x="0.0" y="432.5" width="414" height="35"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.9098039269" blue="0.80392158030000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="menubig" translatesAutoresizingMaskIntoConstraints="NO" id="sEo-4I-2ve">
-                                <rect key="frame" x="182" y="213" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="coffee12" translatesAutoresizingMaskIntoConstraints="NO" id="sEo-4I-2ve">
+                                <rect key="frame" x="10" y="235.5" width="394" height="192"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ve2-J6-s2s"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ve2-J6-s2s" firstAttribute="trailing" secondItem="sEo-4I-2ve" secondAttribute="trailing" constant="10" id="0ib-AW-QFd"/>
+                            <constraint firstItem="kEf-Eo-dm3" firstAttribute="leading" secondItem="Ve2-J6-s2s" secondAttribute="leading" constant="20" id="4Ha-9b-dq2"/>
+                            <constraint firstAttribute="bottom" secondItem="kEf-Eo-dm3" secondAttribute="bottom" constant="91" id="9l9-bC-jRU"/>
+                            <constraint firstItem="kEf-Eo-dm3" firstAttribute="top" secondItem="0ch-My-dW4" secondAttribute="bottom" constant="5" id="Iib-97-hEi"/>
+                            <constraint firstItem="0ch-My-dW4" firstAttribute="leading" secondItem="Ve2-J6-s2s" secondAttribute="leading" id="Mhy-qC-Ukl"/>
+                            <constraint firstItem="0ch-My-dW4" firstAttribute="trailing" secondItem="Ve2-J6-s2s" secondAttribute="trailing" id="TBo-a3-hbc"/>
+                            <constraint firstItem="0ch-My-dW4" firstAttribute="top" secondItem="sEo-4I-2ve" secondAttribute="bottom" constant="5" id="cHz-ML-3ZJ"/>
+                            <constraint firstItem="sEo-4I-2ve" firstAttribute="leading" secondItem="Ve2-J6-s2s" secondAttribute="leading" constant="10" id="nr7-tJ-nXL"/>
+                            <constraint firstItem="Ve2-J6-s2s" firstAttribute="trailing" secondItem="kEf-Eo-dm3" secondAttribute="trailing" constant="20" id="yTT-6s-9PI"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Dk7-vB-LNZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ug4-Zh-W4t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1406" y="106"/>
+            <point key="canvasLocation" x="1405.7971014492755" y="105.80357142857143"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IOi-dX-N9z">
@@ -79,51 +147,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sorry we are bussy now" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDK-aA-Lfn">
-                                <rect key="frame" x="56" y="345" width="309" height="206"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDK-aA-Lfn">
+                                <rect key="frame" x="10" y="395.5" width="394" height="346.5"/>
+                                <string key="text">Almedinh
+
+-Sultana Road before the Islamic University Roundabout
+
+-Ring Road before the office of energies first lap
+
+-Aziziyah District, Imam Ibn Majah Road</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="headphone-big" translatesAutoresizingMaskIntoConstraints="NO" id="bll-eO-NY6">
-                                <rect key="frame" x="182" y="257" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="our branches" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHU-n3-TWa">
+                                <rect key="frame" x="0.0" y="359" width="414" height="26.5"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.9098039269" blue="0.80392158030000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="asrarcaffee" translatesAutoresizingMaskIntoConstraints="NO" id="bll-eO-NY6">
+                                <rect key="frame" x="12" y="204" width="382" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="zLU-2g-3Lm"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5MS-mg-E9t"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5MS-mg-E9t" firstAttribute="trailing" secondItem="bll-eO-NY6" secondAttribute="trailing" constant="20" id="C87-42-CDH"/>
+                            <constraint firstItem="bll-eO-NY6" firstAttribute="leading" secondItem="5MS-mg-E9t" secondAttribute="leading" constant="12" id="QFC-lm-N7n"/>
+                            <constraint firstAttribute="trailing" secondItem="YHU-n3-TWa" secondAttribute="trailing" id="Sal-Ci-3Yg"/>
+                            <constraint firstItem="5MS-mg-E9t" firstAttribute="trailing" secondItem="LDK-aA-Lfn" secondAttribute="trailing" constant="10" id="bRk-GZ-ygp"/>
+                            <constraint firstItem="YHU-n3-TWa" firstAttribute="top" secondItem="bll-eO-NY6" secondAttribute="bottom" constant="5" id="ct3-pE-wdF"/>
+                            <constraint firstItem="LDK-aA-Lfn" firstAttribute="top" secondItem="YHU-n3-TWa" secondAttribute="bottom" constant="10" id="dfs-8v-tyd"/>
+                            <constraint firstItem="5MS-mg-E9t" firstAttribute="bottom" secondItem="LDK-aA-Lfn" secondAttribute="bottom" constant="22" id="jTV-Zw-Zm0"/>
+                            <constraint firstItem="YHU-n3-TWa" firstAttribute="leading" secondItem="5MS-mg-E9t" secondAttribute="leading" id="pKz-UX-sbp"/>
+                            <constraint firstItem="LDK-aA-Lfn" firstAttribute="leading" secondItem="5MS-mg-E9t" secondAttribute="leading" constant="10" id="t1w-Yv-dQ1"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="mJi-yv-jgR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ok3-I2-QIu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1406" y="777"/>
-        </scene>
-        <!--Item-->
-        <scene sceneID="xZY-PK-Onv">
-            <objects>
-                <viewController id="dcE-tu-0Bp" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="YoG-qS-pjt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Badr coffee" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6pu-3b-JgF">
-                                <rect key="frame" x="78" y="408" width="225" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="xbY-bv-AQF"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="h4G-bs-cMp"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VRz-gy-pRV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2513.04347826087" y="337.5"/>
+            <point key="canvasLocation" x="1405.7971014492755" y="776.78571428571422"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="UEd-Aa-afb">
@@ -136,7 +205,6 @@
                     </tabBar>
                     <connections>
                         <segue destination="nix-w5-vsF" kind="relationship" relationship="viewControllers" id="6QX-sC-1b5"/>
-                        <segue destination="dcE-tu-0Bp" kind="relationship" relationship="viewControllers" id="LA3-p3-R1E"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WKb-36-KSL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -165,10 +233,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="headphone-big" width="50" height="50"/>
-        <image name="headphonesmall" width="26" height="26"/>
-        <image name="menu-small" width="22" height="22"/>
-        <image name="menubig" width="50" height="50"/>
+        <image name="asrarcaffee" width="225" height="225"/>
+        <image name="coffee12" width="262" height="192"/>
+        <image name="location.magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="text.bubble.rtl" catalog="system" width="128" height="110"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
